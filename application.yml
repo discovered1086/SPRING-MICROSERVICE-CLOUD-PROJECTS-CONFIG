@@ -6,7 +6,7 @@ my:
  age:  30
  list:
     value: one,two,three
-  greetings: Hello ${person.name} from the config server
+ greetings: Hello ${person.name} from the config server
   
   
 
