@@ -1,13 +1,13 @@
-#person.name: Kinghshuk
-#my.greetings: Hello ${person.name}
-
 userLocation: "{Amit: 'New Jersey', Joy: 'Illinois', Mainak: 'Connecticut'}"
 
 my:
  name: Deeksha
  gender: FEMALE
  age:  30
- ist:
+ list:
     value: one,two,three
+  greetings: Hello ${person.name} from the config server
+  
+  
 
 management.endpoints.web.exposure.include: "*"
