@@ -1,14 +1,12 @@
 userLocation: "{Amit: 'New Jersey', Joy: 'Illinois', Mainak: 'Connecticut'}"
 
-person.name=Kingshuk
-
 my:
  name: Deeksha
  gender: FEMALE
  age:  30
  list:
     value: one,two,three
- greetings: Hello ${person.name} from the config server
+ greetings: Hello Kingshuk from the config server
   
   
 
