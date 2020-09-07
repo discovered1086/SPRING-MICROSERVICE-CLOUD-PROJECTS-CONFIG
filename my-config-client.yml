@@ -2,7 +2,7 @@ userLocation: "{Amit: 'New Jersey', Joy: 'Illinois', Mainak: 'Connecticut'}"
 
 my:
  name: Amit Biswas
- gender: TRANSGENDER
+ gender: MALE
  age:  32
  list:
     value: one,two,three
