@@ -1,0 +1,14 @@
+
+userLocation: "{Amit: 'New Jersey', Joy: 'Illinois', Mainak: 'Connecticut'}"
+
+my:
+ name: Deeksha
+ gender: FEMALE
+ age:  30
+ list:
+    value: one,two,three
+ greetings: Hello Kingshuk from the config server
+  
+  
+
+management.endpoints.web.exposure.include: "*"
