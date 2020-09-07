@@ -1,0 +1,12 @@
+userLocation: "{Amit: 'New Jersey', Joy: 'Illinois', Mainak: 'Connecticut'}"
+
+my:
+ name: Kingshuk
+ gender: MALE
+ age:  33
+ list:
+    value: one,two,three
+
+management.endpoints.web.exposure.include: "*"
+
+spring.profiles.active: test
