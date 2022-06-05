@@ -1,1 +1,10 @@
 
+spring:
+  application:
+    name: microservice-course-api-gateway
+  cloud:
+    config:
+      enabled: true
+
+server:
+  port: 8011
