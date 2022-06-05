@@ -9,4 +9,4 @@ server:
   port: 9900
   
 
-transactions_url: http://konvergion-transaction-management/transactions
+transactions_url: http://microservice-course-transaction-management/transactions
