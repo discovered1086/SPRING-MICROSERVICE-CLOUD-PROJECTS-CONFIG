@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: microservice-course-transaction-management
+
+server:
+  port: 9090
+
+account:
+  service:
+    url: http://konvergion-item-management/customerAccounts
