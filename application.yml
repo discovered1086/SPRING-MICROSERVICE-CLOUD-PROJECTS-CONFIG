@@ -10,4 +10,19 @@ my:
   
   
 
-management.endpoints.web.exposure.include: "*"
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@kingsdatabase.cbxkwasywxio.us-east-1.rds.amazonaws.com:1521:kingsdb
+    username: personalfinance_konvergion
+    password: Iofdtiger#1086
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 100
+        order_inserts: true
+        dialect: org.hibernate.dialect.Oracle12cDialect
