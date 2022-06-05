@@ -8,6 +8,12 @@ my:
     value: one,two,three
  greetings: Hello Kingshuk from the config server
   
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:6999/eureka
   
 
 spring:
