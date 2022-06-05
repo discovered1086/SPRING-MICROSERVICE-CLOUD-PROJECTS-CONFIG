@@ -13,7 +13,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:6999/eureka
+      defaultZone: http://mini-konvergion-eureka-server:6999/eureka
   
 
 spring:
