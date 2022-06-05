@@ -1,6 +1,6 @@
 spring:
   application:
-    name: konvergion-item-management
+    name: microservice-course-item-management
 
 
 server:
