@@ -5,6 +5,10 @@ spring:
   cloud:
     config:
       enabled: true
+    gateway:
+      discovery:
+        locator:
+          enabled: true
 
 server:
   port: 8011
